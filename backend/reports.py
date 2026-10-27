@@ -189,7 +189,7 @@ def _build_top_vehicles(records) -> list[TopVehicle]:
         parts = plate_text.replace(" - ", " ").split()
 
         if len(parts) == 4:
-            from backend.models import Plate
+            from models import Plate
 
             plate = Plate(
                 two=parts[0],
