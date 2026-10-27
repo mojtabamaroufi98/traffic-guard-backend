@@ -2,8 +2,7 @@ from pathlib import Path
 import json
 import time
 
-from  backend.models import TrafficRecord
-
+from models import TrafficRecord
 
 DATA_DIR = Path(__file__).parent / "data"
 DATA_FILE = DATA_DIR / "traffic.json"
