@@ -139,7 +139,7 @@ def ask_agent(question: str) -> str:
                 "content": user_message,
             },
         ],
-        temperature=0.1,
+       
     )
 
     return response.choices[0].message.content or ""
